@@ -13,5 +13,6 @@ int main(){
     int *ptr = &val;
     fun2(ptr);
     cout << ptr << endl; //0
+    
     return 0;
 }

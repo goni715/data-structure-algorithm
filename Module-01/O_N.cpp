@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n;
+    int n; 
     cin>>n;
     int a[n];
     for(int i=0; i<n; i++){   // O(N)
@@ -14,7 +14,14 @@ int main(){
     for(int i=0; i<n; i++){ // O(N)
         s+=a[i];
     }
+
+    // 
+
     cout<<s<<endl;
     return 0;
 }
 
+
+/*
+ O(n+n) -> O(2n) -> O(n)
+*/
